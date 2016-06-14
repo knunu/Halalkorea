@@ -1,0 +1,194 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANDROID_PUSH_TOKEN	Welcome.php	/^define('ANDROID_PUSH_TOKEN', 'AIzaSyDzqCX5jR1oWfZ10-ndals2aSzBGDAZt-y4');$/;"	d
+Admin	Admin.php	/^class Admin extends CI_Controller$/;"	c
+Agree	Agree.php	/^class Agree extends CI_Controller$/;"	c
+Community	Community.php	/^class Community extends CI_Controller$/;"	c
+Contact	Contact.php	/^class Contact extends CI_Controller$/;"	c
+Cron	Cron.php	/^class Cron extends CI_Controller$/;"	c
+DEFAULT_ADHAN	Salah.php	/^define('DEFAULT_ADHAN', 'Abdul Baset');$/;"	d
+DEFAULT_X	Salah.php	/^define('DEFAULT_X', '36.4402648');$/;"	d
+DEFAULT_X	Welcome.php	/^define('DEFAULT_X', '36.4402648');$/;"	d
+DEFAULT_Y	Salah.php	/^define('DEFAULT_Y', '128.0252494');$/;"	d
+DEFAULT_Y	Welcome.php	/^define('DEFAULT_Y', '128.0252494');$/;"	d
+Faq	Faq.php	/^class Faq extends CI_Controller$/;"	c
+Markets	Markets.php	/^class Markets extends CI_Controller$/;"	c
+Mosque	Mosque.php	/^class Mosque extends CI_Controller$/;"	c
+Notice	Notice.php	/^class Notice extends CI_Controller$/;"	c
+PUSH_TOKEN	Salah.php	/^define('PUSH_TOKEN', 'AIzaSyDzqCX5jR1oWfZ10-ndals2aSBGDAZt-y4');$/;"	d
+Pages	Pages.php	/^class Pages extends CI_Controller$/;"	c
+Prayerspot	Prayerspot.php	/^class Prayerspot extends CI_Controller$/;"	c
+Restaurants	Restaurants.php	/^class Restaurants extends CI_Controller$/;"	c
+Salah	Salah.php	/^class Salah extends CI_Controller$/;"	c
+Scan	Scan.php	/^class Scan extends CI_Controller$/;"	c
+Travel	Travel.php	/^class Travel extends CI_Controller {$/;"	c
+Upload	Upload.php	/^class Upload extends CI_Controller$/;"	c
+User	User.php	/^class User extends CI_Controller$/;"	c
+Welcome	Welcome.php	/^class Welcome extends CI_Controller$/;"	c
+__construct	Admin.php	/^    public function __construct()$/;"	f
+__construct	Agree.php	/^    public function __construct()$/;"	f
+__construct	Community.php	/^    public function __construct()$/;"	f
+__construct	Contact.php	/^    public function __construct()$/;"	f
+__construct	Cron.php	/^    public function __construct()$/;"	f
+__construct	Faq.php	/^    public function __construct()$/;"	f
+__construct	Markets.php	/^    public function __construct()$/;"	f
+__construct	Mosque.php	/^    public function __construct()$/;"	f
+__construct	Notice.php	/^    public function __construct()$/;"	f
+__construct	Prayerspot.php	/^    public function __construct()$/;"	f
+__construct	Restaurants.php	/^    public function __construct()$/;"	f
+__construct	Salah.php	/^    public function __construct()$/;"	f
+__construct	Scan.php	/^    public function __construct()$/;"	f
+__construct	Travel.php	/^    public function __construct() {$/;"	f
+__construct	Upload.php	/^    public function __construct()$/;"	f
+__construct	User.php	/^    public function __construct()$/;"	f
+adhan	Salah.php	/^            $adhan = $this->input->post('adhan');$/;"	v
+adhan	Salah.php	/^    public function adhan($class)$/;"	f
+adhan_data	Salah.php	/^                    $adhan_data = array($/;"	v
+adhan_data	Salah.php	/^                    $adhan_data = array();$/;"	v
+adhan_data	Salah.php	/^                $adhan_data = array($/;"	v
+adhan_data	Salah.php	/^                $adhan_data = array();$/;"	v
+adhan_data	Salah.php	/^            $adhan_data = array();$/;"	v
+adhan_file	Salah.php	/^                $adhan_file = $adhan_file_data->row()->file;$/;"	v
+adhan_file_data	Salah.php	/^            $adhan_file_data = $this->salah_model->get_data('salah_adhan_list', array('name' => $adhan));$/;"	v
+adhan_raw_data	Salah.php	/^                $adhan_raw_data = $this->salah_model->get_data('salah_adhan', array('device_id' => $base_data['device_id']));$/;"	v
+adhan_raw_data	Salah.php	/^            $adhan_raw_data = $this->salah_model->get_data('salah_adhan', array('device_id' => $condition['device_id']));$/;"	v
+adhan_raw_data	Salah.php	/^            $adhan_raw_data = $this->salah_model->get_data('salah_adhan', array('device_id' => $data['device_id']));$/;"	v
+adhan_result	Salah.php	/^                $adhan_result = array();$/;"	v
+alarm_type	Salah.php	/^                $alarm_type = $this->input->post('type');$/;"	v
+base_data	Salah.php	/^            $base_data = $this->salah_model->get_data('salah_alarm', $data)->row();$/;"	v
+base_data	Salah.php	/^            $base_data = array($/;"	v
+category	Markets.php	/^    public function category()$/;"	f
+category	Restaurants.php	/^    public function category()$/;"	f
+category_id	Restaurants.php	/^        $category_id = $this->input->post('category_id');$/;"	v
+check_email	User.php	/^    public function check_email($type = '', $param_email = '', $login_flag = 'H')$/;"	f
+class	Travel.php	/^                $class = $this->input->post('class');$/;"	v
+classifier	Salah.php	/^            $classifier = strpos($class, 'set_push_partly');$/;"	v
+condition	Salah.php	/^            $condition = array($/;"	v
+condition	Travel.php	/^                $condition = array($/;"	v
+config	Community.php	/^                $config = array();$/;"	v
+config	Scan.php	/^        $config = array();$/;"	v
+config	User.php	/^        $config = array();$/;"	v
+content	Contact.php	/^        $content = $this->input->post('content');$/;"	v
+course_id	Travel.php	/^                $course_id = $this->input->post('course_id');$/;"	v
+data	Salah.php	/^                $data = $this->salah_model->get_data('salah_alarm', $base_data)->row();$/;"	v
+data	Salah.php	/^            $data = array($/;"	v
+data	Travel.php	/^                $data = array($/;"	v
+data	Upload.php	/^            $data = array('upload_data' => $this->upload->data());$/;"	v
+delete	Community.php	/^    public function delete($class)$/;"	f
+device_id	Salah.php	/^        $device_id = $this->input->post('device_id');$/;"	v
+do_upload	Upload.php	/^    public function do_upload()$/;"	f
+email	Contact.php	/^        $email = $this->input->post('email');$/;"	v
+email	User.php	/^        $email = $this->input->post('email');$/;"	v
+error	Upload.php	/^            $error = array('error' => $this->upload->display_errors());$/;"	v
+faq_list	Faq.php	/^    public function faq_list()$/;"	f
+full_path	Community.php	/^                    $full_path = $this->upload->data('full_path');$/;"	v
+full_path	Community.php	/^                    $full_path = '';$/;"	v
+full_path	Community.php	/^        $full_path = '';$/;"	v
+full_path	User.php	/^            $full_path = $this->upload->data('full_path');                                                                     $/;"	v
+full_path	User.php	/^            $full_path = '';                                                                                                   $/;"	v
+full_path	User.php	/^        $full_path = '';$/;"	v
+get	Travel.php	/^    public function get($function) {$/;"	f
+id	Travel.php	/^                $id = array('id' => $this->input->post('id'));$/;"	v
+index	Upload.php	/^    public function index()$/;"	f
+index	Welcome.php	/^    public function index()$/;"	f
+information	Travel.php	/^                $information = array($/;"	v
+ingredient_image_path	Scan.php	/^            $ingredient_image_path =$/;"	v
+ingredient_image_path	Scan.php	/^        $ingredient_image_path = '';$/;"	v
+item_id	Travel.php	/^                $item_id = $this->input->post('item_id');$/;"	v
+job	Salah.php	/^            $job = $this->salah_model->get_data('salah_alarm', $condition)->row_array();$/;"	v
+latitude	Salah.php	/^                $latitude == '0' ||$/;"	v
+latitude	Salah.php	/^                $latitude == '0.0' ||$/;"	v
+latitude	Salah.php	/^                $latitude == 'null') $latitude = DEFAULT_X;$/;"	v
+latitude	Salah.php	/^                $latitude == null ||$/;"	v
+latitude	Salah.php	/^            $latitude = $this->input->post('latitude');$/;"	v
+letusknow	Scan.php	/^    public function letusknow()$/;"	f
+like	Community.php	/^    public function like($class)$/;"	f
+lists	Community.php	/^    public function lists($class)$/;"	f
+login	User.php	/^    public function login()$/;"	f
+login_flag	User.php	/^        $login_flag = $this->input->post('login_flag');$/;"	v
+logout	User.php	/^    public function logout()$/;"	f
+longitude	Salah.php	/^                $longitude == '0' ||$/;"	v
+longitude	Salah.php	/^                $longitude == '0.0' ||$/;"	v
+longitude	Salah.php	/^                $longitude == 'null') $longitude = DEFAULT_Y;$/;"	v
+longitude	Salah.php	/^                $longitude == null ||$/;"	v
+longitude	Salah.php	/^            $longitude = $this->input->post('longitude');$/;"	v
+main_category_name	Travel.php	/^                $main_category_name = $this->input->post('main_category_name');$/;"	v
+modify	Community.php	/^    public function modify($class)$/;"	f
+modify	Travel.php	/^    public function modify($function) {$/;"	f
+modify	User.php	/^    public function modify()$/;"	f
+mosque_list	Mosque.php	/^    public function mosque_list()$/;"	f
+most_recent_checked_id	Notice.php	/^        $most_recent_checked_id = $this->input->post('most_recent_checked_id');$/;"	v
+name	User.php	/^        $name = $this->input->post('name');$/;"	v
+new_data	Travel.php	/^                $new_data = array($/;"	v
+notice_list	Community.php	/^    public function notice_list()$/;"	f
+notice_list	Notice.php	/^    public function notice_list()$/;"	f
+notice_recent_list	Notice.php	/^    public function notice_recent_list()$/;"	f
+password	User.php	/^        $password = $this->input->post('password');$/;"	v
+photo	User.php	/^        $photo = $this->input->post('photo');$/;"	v
+pray_class	Salah.php	/^                $pray_class = $this->input->post('pray_class');$/;"	v
+pray_class	Salah.php	/^        $pray_class = $this->input->post('pray_class');$/;"	v
+pray_times	Salah.php	/^    public function pray_times($class = '')$/;"	f
+prayerspot_list	Prayerspot.php	/^    public function prayerspot_list()$/;"	f
+privacy_policy	Agree.php	/^    public function privacy_policy()$/;"	f
+product_image_path	Scan.php	/^            $product_image_path =$/;"	v
+product_image_path	Scan.php	/^        $product_image_path = '';$/;"	v
+push_token	Salah.php	/^            $push_token = PUSH_TOKEN;$/;"	v
+query	Agree.php	/^        $query = " SELECT co_content_en$/;"	v
+quran_daily	Salah.php	/^    public function quran_daily()$/;"	f
+raw_pray_times	Salah.php	/^            $raw_pray_times = explode(',', str_replace('"', '', $ref_pray_times));$/;"	v
+read	Travel.php	/^    public function read($function) {$/;"	f
+ref_pray_times	Salah.php	/^                $ref_pray_times = $this->salah_model->get_pray_time('', $base_data['latitude'], $base_data['longitude']);$/;"	v
+ref_pray_times	Salah.php	/^            $ref_pray_times = $this->salah_model->get_pray_time('', $data['latitude'], $data['longitude']);$/;"	v
+ref_pray_times	Salah.php	/^            $ref_pray_times = $this->salah_model->get_pray_time('', $job['latitude'], $job['longitude']);$/;"	v
+register	User.php	/^    public function register()$/;"	f
+remove	Travel.php	/^    public function remove($function) {$/;"	f
+reset	Travel.php	/^    public function reset($function) {$/;"	f
+reset_password	User.php	/^    public function reset_password()$/;"	f
+response	Notice.php	/^            $response = array();$/;"	v
+response	Scan.php	/^        $response = array();$/;"	v
+restaurants	Restaurants.php	/^    public function restaurants()$/;"	f
+restore_salah_alarm	Admin.php	/^    public function restore_salah_alarm() {$/;"	f
+result	Agree.php	/^        $result = $this->db->query($query)->result();$/;"	v
+result	Agree.php	/^        $result = array();$/;"	v
+result	Salah.php	/^            $result = $this->salah_model->get_adhan($device_id, $pray_class);$/;"	v
+result	Salah.php	/^            $result = $this->salah_model->get_adhan_list();$/;"	v
+result	Salah.php	/^            $result = array($/;"	v
+result	Salah.php	/^            $result = array();$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->get_banner();$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->get_bookmark($condition);$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->get_course_item_list($course_id);$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->get_course_list();$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->get_image($class, $item_id);$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->get_item_content($main_category_name, $sub_category_id, $item_id);$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->get_item_list($information);$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->get_sub_category($main_category_name);$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->modify_review($condition, $new_data);$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->read_review($class, $item_id, $session_id);$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->remove_review($id);$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->reset_bookmark($data);$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->set_bookmark($data);$/;"	v
+result	Travel.php	/^                $result = $this->travel_model->write_review($data);$/;"	v
+result	Travel.php	/^                $result = null;$/;"	v
+result	User.php	/^        $result = array();$/;"	v
+rules	Community.php	/^                $rules = array($/;"	v
+rules	User.php	/^        $rules = array($/;"	v
+session_id	Travel.php	/^                $session_id = $this->input->post('session_id');$/;"	v
+session_id	User.php	/^        $session_id = $this->input->post('session_id');$/;"	v
+set	Travel.php	/^    public function set($function) {$/;"	f
+sub_category_id	Travel.php	/^                $sub_category_id = $this->input->post('sub_category_id');$/;"	v
+support	Contact.php	/^    public function support()$/;"	f
+term_of_service	Agree.php	/^    public function term_of_service()$/;"	f
+test	Pages.php	/^    public function test()$/;"	f
+test	Scan.php	/^    public function test()$/;"	f
+test	Welcome.php	/^    public function test()$/;"	f
+user_info	User.php	/^    public function user_info()$/;"	f
+user_name	User.php	/^    public function user_name()$/;"	f
+user_photo	User.php	/^    public function user_photo()                                                                                               $/;"	f
+view	Pages.php	/^    public function view($page = 'home')$/;"	f
+withdraw	User.php	/^    public function withdraw()$/;"	f
+write	Community.php	/^    public function write($class)$/;"	f
+write	Travel.php	/^    public function write($function) {$/;"	f

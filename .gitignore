@@ -1,0 +1,6 @@
+.idea
+image
+.DS_Store
+*.swp
+*.log
+job_queue.access.log

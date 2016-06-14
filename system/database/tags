@@ -1,0 +1,563 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CACHE	DB_driver.php	/^		$this->CACHE = new CI_DB_Cache($this); \/\/ pass db object to support multiple db connections and returned db objects$/;"	v
+CACHE	DB_driver.php	/^	public $CACHE;$/;"	v
+CI	DB_cache.php	/^		$this->CI =& get_instance();$/;"	v
+CI	DB_cache.php	/^	public $CI;$/;"	v
+CI	DB_utility.php	/^			$CI =& get_instance();$/;"	v
+CI_DB	DB.php	/^			class CI_DB extends CI_DB_query_builder { }$/;"	c
+CI_DB	DB.php	/^		class CI_DB extends CI_DB_driver { }$/;"	c
+CI_DB_Cache	DB_cache.php	/^class CI_DB_Cache {$/;"	c
+CI_DB_driver	DB_driver.php	/^abstract class CI_DB_driver {$/;"	c
+CI_DB_forge	DB_forge.php	/^abstract class CI_DB_forge {$/;"	c
+CI_DB_query_builder	DB_query_builder.php	/^abstract class CI_DB_query_builder extends CI_DB_driver {$/;"	c
+CI_DB_result	DB_result.php	/^class CI_DB_result {$/;"	c
+CI_DB_utility	DB_utility.php	/^abstract class CI_DB_utility {$/;"	c
+CR	DB_driver.php	/^			$CR = new CI_DB_result($this);$/;"	v
+DB	DB.php	/^			$DB = new $driver($params);$/;"	v
+DB	DB.php	/^	$DB = new $driver($params);$/;"	v
+DB	DB.php	/^function &DB($params = '', $query_builder_override = NULL)$/;"	f
+LANG	DB_driver.php	/^		$LANG =& load_class('Lang', 'core');$/;"	v
+RES	DB_driver.php	/^		$RES		= new $driver($this);$/;"	v
+__construct	DB_cache.php	/^	public function __construct(&$db)$/;"	f
+__construct	DB_driver.php	/^	public function __construct($params)$/;"	f
+__construct	DB_forge.php	/^	public function __construct(&$db)$/;"	f
+__construct	DB_result.php	/^	public function __construct(&$driver_object)$/;"	f
+__construct	DB_utility.php	/^	public function __construct(&$db)$/;"	f
+_alter_table	DB_forge.php	/^	protected function _alter_table($alter_type, $table, $field)$/;"	f
+_attr_auto_increment	DB_forge.php	/^	protected function _attr_auto_increment(&$attributes, &$field)$/;"	f
+_attr_default	DB_forge.php	/^	protected function _attr_default(&$attributes, &$field)$/;"	f
+_attr_type	DB_forge.php	/^	protected function _attr_type(&$attributes)$/;"	f
+_attr_unique	DB_forge.php	/^	protected function _attr_unique(&$attributes, &$field)$/;"	f
+_attr_unsigned	DB_forge.php	/^	protected function _attr_unsigned(&$attributes, &$field)$/;"	f
+_cache_init	DB_driver.php	/^	protected function _cache_init()$/;"	f
+_close	DB_driver.php	/^	protected function _close()$/;"	f
+_compile_group_by	DB_query_builder.php	/^	protected function _compile_group_by()$/;"	f
+_compile_order_by	DB_query_builder.php	/^	protected function _compile_order_by()$/;"	f
+_compile_select	DB_query_builder.php	/^	protected function _compile_select($select_override = FALSE)$/;"	f
+_compile_wh	DB_query_builder.php	/^	protected function _compile_wh($qb_key)$/;"	f
+_count_string	DB_driver.php	/^	protected $_count_string = 'SELECT COUNT(*) AS ';$/;"	v
+_create_alias_from_table	DB_query_builder.php	/^	protected function _create_alias_from_table($item)$/;"	f
+_create_database	DB_forge.php	/^	protected $_create_database	= 'CREATE DATABASE %s';$/;"	v
+_create_table	DB_forge.php	/^	protected $_create_table	= "%s %s (%s\\n)";$/;"	v
+_create_table	DB_forge.php	/^	protected function _create_table($table, $if_not_exists, $attributes)$/;"	f
+_create_table_attr	DB_forge.php	/^	protected function _create_table_attr($attributes)$/;"	f
+_create_table_if	DB_forge.php	/^	protected $_create_table_if	= 'CREATE TABLE IF NOT EXISTS';$/;"	v
+_create_table_keys	DB_forge.php	/^	protected $_create_table_keys	= FALSE;$/;"	v
+_data	DB_result.php	/^			$_data = 'result_array';$/;"	v
+_data	DB_result.php	/^			$_data = 'result_object';$/;"	v
+_data	DB_result.php	/^		$_data = NULL;$/;"	v
+_default	DB_forge.php	/^	protected $_default		= ' DEFAULT ';$/;"	v
+_delete	DB_query_builder.php	/^	protected function _delete($table)$/;"	f
+_drop_database	DB_forge.php	/^	protected $_drop_database	= 'DROP DATABASE %s';$/;"	v
+_drop_table	DB_forge.php	/^	protected function _drop_table($table, $if_exists)$/;"	f
+_drop_table_if	DB_forge.php	/^	protected $_drop_table_if	= 'DROP TABLE IF EXISTS';$/;"	v
+_escape_char	DB_driver.php	/^	protected $_escape_char = '"';$/;"	v
+_escape_str	DB_driver.php	/^	protected function _escape_str($str)$/;"	f
+_fetch_assoc	DB_result.php	/^	protected function _fetch_assoc()$/;"	f
+_fetch_object	DB_result.php	/^	protected function _fetch_object($class_name = 'stdClass')$/;"	f
+_from_tables	DB_query_builder.php	/^	protected function _from_tables()$/;"	f
+_get_operator	DB_driver.php	/^	protected function _get_operator($str)$/;"	f
+_group_get_type	DB_query_builder.php	/^	protected function _group_get_type($type)$/;"	f
+_has_operator	DB_driver.php	/^	protected function _has_operator($str)$/;"	f
+_insert	DB_driver.php	/^	protected function _insert($table, $keys, $values)$/;"	f
+_insert_batch	DB_query_builder.php	/^	protected function _insert_batch($table, $keys, $values)$/;"	f
+_is_literal	DB_query_builder.php	/^	protected function _is_literal($str)$/;"	f
+_les	DB_driver.php	/^			$_les = ($this->_like_escape_str !== '')$/;"	v
+_like	DB_query_builder.php	/^	protected function _like($field, $match = '', $type = 'AND ', $side = 'both', $not = '', $escape = NULL)$/;"	f
+_like_escape_chr	DB_driver.php	/^	protected $_like_escape_chr = '!';$/;"	v
+_like_escape_str	DB_driver.php	/^	protected $_like_escape_str = " ESCAPE '%s' ";$/;"	v
+_limit	DB_query_builder.php	/^	protected function _limit($sql)$/;"	f
+_list_databases	DB_utility.php	/^	protected $_list_databases		= FALSE;$/;"	v
+_max_min_avg_sum	DB_query_builder.php	/^	protected function _max_min_avg_sum($select = '', $alias = '', $type = 'MAX')$/;"	f
+_merge_cache	DB_query_builder.php	/^	protected function _merge_cache()$/;"	f
+_null	DB_forge.php	/^	protected $_null		= '';$/;"	v
+_object_to_array	DB_query_builder.php	/^	protected function _object_to_array($object)$/;"	f
+_object_to_array_batch	DB_query_builder.php	/^	protected function _object_to_array_batch($object)$/;"	f
+_operators	DB_driver.php	/^			$_operators = array($/;"	v
+_operators	DB_driver.php	/^		static $_operators;$/;"	v
+_optimize_table	DB_utility.php	/^	protected $_optimize_table	= FALSE;$/;"	v
+_process_column	DB_forge.php	/^	protected function _process_column($field)$/;"	f
+_process_fields	DB_forge.php	/^	protected function _process_fields($create_table = FALSE)$/;"	f
+_process_indexes	DB_forge.php	/^	protected function _process_indexes($table)$/;"	f
+_process_primary_keys	DB_forge.php	/^	protected function _process_primary_keys($table)$/;"	f
+_protect_identifiers	DB_driver.php	/^	protected $_protect_identifiers		= TRUE;$/;"	v
+_random_keyword	DB_driver.php	/^	protected $_random_keyword = array('RAND()', 'RAND(%d)');$/;"	v
+_rename_table	DB_forge.php	/^	protected $_rename_table	= 'ALTER TABLE %s RENAME TO %s;';$/;"	v
+_repair_table	DB_utility.php	/^	protected $_repair_table	= FALSE;$/;"	v
+_replace	DB_query_builder.php	/^	protected function _replace($table, $keys, $values)$/;"	f
+_reserved_identifiers	DB_driver.php	/^	protected $_reserved_identifiers	= array('*');$/;"	v
+_reset	DB_forge.php	/^	protected function _reset()$/;"	f
+_reset_run	DB_query_builder.php	/^	protected function _reset_run($qb_reset_items)$/;"	f
+_reset_select	DB_driver.php	/^	protected function _reset_select()$/;"	f
+_reset_select	DB_query_builder.php	/^	protected function _reset_select()$/;"	f
+_reset_write	DB_query_builder.php	/^	protected function _reset_write()$/;"	f
+_str	DB_query_builder.php	/^			$_str = ($this->_escape_char !== '"')$/;"	v
+_str	DB_query_builder.php	/^		static $_str;$/;"	v
+_track_aliases	DB_query_builder.php	/^	protected function _track_aliases($table)$/;"	f
+_trans_depth	DB_driver.php	/^			$this->_trans_depth = 0;$/;"	v
+_trans_depth	DB_driver.php	/^	protected $_trans_depth		= 0;$/;"	v
+_trans_failure	DB_driver.php	/^	protected $_trans_failure	= FALSE;$/;"	v
+_trans_status	DB_driver.php	/^				$this->_trans_status = TRUE;$/;"	v
+_trans_status	DB_driver.php	/^			$this->_trans_status = FALSE;$/;"	v
+_trans_status	DB_driver.php	/^	protected $_trans_status	= TRUE;$/;"	v
+_truncate	DB_query_builder.php	/^	protected function _truncate($table)$/;"	f
+_unsigned	DB_forge.php	/^	protected $_unsigned		= TRUE;$/;"	v
+_update	DB_driver.php	/^	protected function _update($table, $values)$/;"	f
+_update_batch	DB_query_builder.php	/^	protected function _update_batch($table, $values, $index)$/;"	f
+_validate_insert	DB_query_builder.php	/^	protected function _validate_insert($table = '')$/;"	f
+_validate_update	DB_query_builder.php	/^	protected function _validate_update($table = '')$/;"	f
+_version	DB_driver.php	/^	protected function _version()$/;"	f
+_wh	DB_query_builder.php	/^	protected function _wh($qb_key, $key, $value = NULL, $type = 'AND ', $escape = NULL)$/;"	f
+_where_in	DB_query_builder.php	/^	protected function _where_in($key = NULL, $values = NULL, $not = FALSE, $type = 'AND ', $escape = NULL)$/;"	f
+active_group	DB.php	/^			$active_group = $params;$/;"	v
+add_column	DB_forge.php	/^	public function add_column($table, $field, $_after = NULL)$/;"	f
+add_field	DB_forge.php	/^	public function add_field($field)$/;"	f
+add_key	DB_forge.php	/^	public function add_key($key, $primary = FALSE)$/;"	f
+affected_rows	DB_query_builder.php	/^		$affected_rows = 0;$/;"	v
+alias	DB_driver.php	/^			$alias = '';$/;"	v
+alias	DB_driver.php	/^			$alias = ($protect_identifiers)$/;"	v
+alias	DB_query_builder.php	/^			$alias = $this->_create_alias_from_table(trim($select));$/;"	v
+array	DB_query_builder.php	/^		$array = array();$/;"	v
+attributes	DB_forge.php	/^			$attributes = array_change_key_case($attributes, CASE_UPPER);$/;"	v
+backup	DB_utility.php	/^	public function backup($params = array())$/;"	f
+benchmark	DB_driver.php	/^	public $benchmark		= 0;$/;"	v
+bind_count	DB_driver.php	/^			$bind_count = 1;$/;"	v
+bind_count	DB_driver.php	/^			$bind_count = count($binds);$/;"	v
+bind_marker	DB_driver.php	/^	public $bind_marker		= '?';$/;"	v
+binds	DB_driver.php	/^			$binds = array($binds);$/;"	v
+binds	DB_driver.php	/^			$binds = array_values($binds);$/;"	v
+by	DB_query_builder.php	/^			$by = ($escape === TRUE)$/;"	v
+c	DB_driver.php	/^			$c = preg_match_all('\/'.preg_quote($this->bind_marker, '\/').'\/i',$/;"	v
+cache_autodel	DB_driver.php	/^	public $cache_autodel		= FALSE;$/;"	v
+cache_delete	DB_driver.php	/^	public function cache_delete($segment_one = '', $segment_two = '')$/;"	f
+cache_delete_all	DB_driver.php	/^	public function cache_delete_all()$/;"	f
+cache_off	DB_driver.php	/^	public function cache_off()$/;"	f
+cache_on	DB_driver.php	/^	public $cache_on		= FALSE;$/;"	v
+cache_on	DB_driver.php	/^	public function cache_on()$/;"	f
+cache_set_path	DB_driver.php	/^	public function cache_set_path($path = '')$/;"	f
+cachedir	DB_driver.php	/^		$this->cachedir = $path;$/;"	v
+cachedir	DB_driver.php	/^	public $cachedir		= '';$/;"	v
+call_function	DB_driver.php	/^	public function call_function($function)$/;"	f
+cases	DB_query_builder.php	/^		$cases = '';$/;"	v
+char_set	DB_driver.php	/^	public $char_set		= 'utf8';$/;"	v
+check_path	DB_cache.php	/^	public function check_path($path = '')$/;"	f
+clean	DB_query_builder.php	/^				$clean = array();$/;"	v
+clean	DB_query_builder.php	/^			$clean = array();$/;"	v
+close	DB_driver.php	/^	public function close()$/;"	f
+columns	DB_forge.php	/^		$columns = $this->_process_fields(TRUE);$/;"	v
+columns	DB_forge.php	/^		$columns = implode(',', $columns)$/;"	v
+compile_binds	DB_driver.php	/^	public function compile_binds($sql, $binds)$/;"	f
+cond	DB_query_builder.php	/^			$cond = ' ON '.$cond;$/;"	v
+cond	DB_query_builder.php	/^			$cond = ' ON '.$newcond;$/;"	v
+cond	DB_query_builder.php	/^			$cond = ' ON '.$this->protect_identifiers($match[1]).$match[2].$this->protect_identifiers($match[3]);$/;"	v
+cond	DB_query_builder.php	/^			$cond = ' USING ('.($escape ? $this->escape_identifiers($cond) : $cond).')';$/;"	v
+conditions	DB_query_builder.php	/^				$conditions = preg_split($/;"	v
+conn_id	DB_driver.php	/^					$this->conn_id = $this->db_connect($this->pconnect);$/;"	v
+conn_id	DB_driver.php	/^			$this->conn_id = FALSE;$/;"	v
+conn_id	DB_driver.php	/^		$this->conn_id = $this->db_connect($this->pconnect);$/;"	v
+conn_id	DB_driver.php	/^		$this->conn_id = FALSE;$/;"	v
+conn_id	DB_driver.php	/^	public $conn_id			= FALSE;$/;"	v
+conn_id	DB_result.php	/^		$this->conn_id = $driver_object->conn_id;$/;"	v
+conn_id	DB_result.php	/^	public $conn_id;$/;"	v
+count_all	DB_driver.php	/^	public function count_all($table = '')$/;"	f
+count_all_results	DB_query_builder.php	/^	public function count_all_results($table = '', $reset = TRUE)$/;"	f
+create_database	DB_forge.php	/^	public function create_database($db_name)$/;"	f
+create_table	DB_forge.php	/^	public function create_table($table, $if_not_exists = FALSE, array $attributes = array())$/;"	f
+csv_from_result	DB_utility.php	/^	public function csv_from_result($query, $delim = ',', $newline = "\\n", $enclosure = '"')$/;"	f
+current_row	DB_result.php	/^			$this->current_row = $n;$/;"	v
+current_row	DB_result.php	/^	public $current_row			= 0;$/;"	v
+custom_result_object	DB_result.php	/^	public $custom_result_object		= array();$/;"	v
+custom_result_object	DB_result.php	/^	public function custom_result_object($class_name)$/;"	f
+custom_row_object	DB_result.php	/^	public function custom_row_object($n, $type)$/;"	f
+data_cache	DB_driver.php	/^	public $data_cache		= array();$/;"	v
+data_seek	DB_result.php	/^	public function data_seek($n = 0)$/;"	f
+database	DB_driver.php	/^	public $database;$/;"	v
+database_exists	DB_utility.php	/^	public function database_exists($database_name)$/;"	f
+db	DB_cache.php	/^		$this->db =& $db;$/;"	v
+db	DB_cache.php	/^	public $db;$/;"	v
+db	DB_forge.php	/^		$this->db =& $db;$/;"	v
+db	DB_forge.php	/^	protected $db;$/;"	v
+db	DB_utility.php	/^		$this->db =& $db;$/;"	v
+db	DB_utility.php	/^	protected $db;$/;"	v
+db_char_set	DB_forge.php	/^	public $db_char_set	= '';$/;"	v
+db_connect	DB_driver.php	/^	public function db_connect()$/;"	f
+db_debug	DB_driver.php	/^	public $db_debug		= FALSE;$/;"	v
+db_pconnect	DB_driver.php	/^	public function db_pconnect()$/;"	f
+db_select	DB_driver.php	/^	public function db_select()$/;"	f
+db_set_charset	DB_driver.php	/^	public function db_set_charset($charset)$/;"	f
+dbcollat	DB_driver.php	/^	public $dbcollat		= 'utf8_general_ci';$/;"	v
+dbdriver	DB_driver.php	/^	public $dbdriver		= 'mysqli';$/;"	v
+dbprefix	DB_driver.php	/^	public $dbprefix		= '';$/;"	v
+dbprefix	DB_query_builder.php	/^	public function dbprefix($table = '')$/;"	f
+delete	DB_cache.php	/^	public function delete($segment_one = '', $segment_two = '')$/;"	f
+delete	DB_query_builder.php	/^	public function delete($table = '', $where = '', $limit = NULL, $reset_data = TRUE)$/;"	f
+delete_all	DB_cache.php	/^	public function delete_all()$/;"	f
+dir_path	DB_cache.php	/^		$dir_path = $this->db->cachedir.$segment_one.'+'.$segment_two.'\/';$/;"	v
+direction	DB_query_builder.php	/^			$direction = '';$/;"	v
+direction	DB_query_builder.php	/^			$direction = in_array($direction, array('ASC', 'DESC'), TRUE) ? ' '.$direction : '';$/;"	v
+direction	DB_query_builder.php	/^		$direction = strtoupper(trim($direction));$/;"	v
+display_error	DB_driver.php	/^	public function display_error($error = '', $swap = '', $native = FALSE)$/;"	f
+distinct	DB_query_builder.php	/^	public function distinct($val = TRUE)$/;"	f
+driver	DB.php	/^			$driver = 'CI_DB_'.$DB->dbdriver.'_'.$DB->subdriver.'_driver';$/;"	v
+driver	DB.php	/^	$driver = 'CI_DB_'.$params['dbdriver'].'_driver';$/;"	v
+driver	DB_driver.php	/^		$driver		= $this->load_rdriver();$/;"	v
+driver	DB_driver.php	/^		$driver = 'CI_DB_'.$this->dbdriver.'_result';$/;"	v
+driver	DB_driver.php	/^		$driver = ($this->dbdriver === 'postgre') ? 'pg_' : $this->dbdriver.'_';$/;"	v
+driver_file	DB.php	/^		$driver_file = BASEPATH.'database\/drivers\/'.$DB->dbdriver.'\/subdrivers\/'.$DB->dbdriver.'_'.$DB->subdriver.'_driver.php';$/;"	v
+driver_file	DB.php	/^	$driver_file = BASEPATH.'database\/drivers\/'.$params['dbdriver'].'\/'.$params['dbdriver'].'_driver.php';$/;"	v
+drop_column	DB_forge.php	/^	public function drop_column($table, $column_name)$/;"	f
+drop_database	DB_forge.php	/^	public function drop_database($db_name)$/;"	f
+drop_table	DB_forge.php	/^	public function drop_table($table_name, $if_exists = FALSE)$/;"	f
+dsn	DB_driver.php	/^	public $dsn;$/;"	v
+elapsed_time	DB_driver.php	/^	public function elapsed_time($decimals = 6)$/;"	f
+empty_table	DB_query_builder.php	/^	public function empty_table($table = '')$/;"	f
+encrypt	DB_driver.php	/^	public $encrypt			= FALSE;$/;"	v
+error	DB_driver.php	/^			$error = $this->error();$/;"	v
+error	DB_driver.php	/^		$error =& load_class('Exceptions', 'core');$/;"	v
+escape	DB_driver.php	/^	public function escape($str)$/;"	f
+escape_identifiers	DB_driver.php	/^	public function escape_identifiers($item)$/;"	f
+escape_like_str	DB_driver.php	/^	public function escape_like_str($str)$/;"	f
+escape_str	DB_driver.php	/^	public function escape_str($str, $like = FALSE)$/;"	f
+escaped_array	DB_driver.php	/^			$escaped_array = array();$/;"	v
+escaped_value	DB_driver.php	/^				$escaped_value = '('.implode(',', $escaped_value).')';$/;"	v
+escaped_value	DB_driver.php	/^			$escaped_value = $this->escape($binds[$c]);$/;"	v
+field	DB_forge.php	/^			$field = array($/;"	v
+field	DB_query_builder.php	/^			$field = array($field => $match);$/;"	v
+field_data	DB_driver.php	/^	public function field_data($table)$/;"	f
+field_data	DB_result.php	/^	public function field_data()$/;"	f
+field_exists	DB_driver.php	/^	public function field_exists($field_name, $table_name)$/;"	f
+fields	DB_driver.php	/^		$fields = $this->list_fields($table);$/;"	v
+fields	DB_driver.php	/^		$fields = $values = array();$/;"	v
+fields	DB_driver.php	/^		$fields = array();$/;"	v
+fields	DB_forge.php	/^			$this->fields = array_merge($this->fields, $field);$/;"	v
+fields	DB_forge.php	/^		$fields = array();$/;"	v
+fields	DB_forge.php	/^		$this->fields = $this->keys = $this->primary_keys = array();$/;"	v
+fields	DB_forge.php	/^	public $fields		= array();$/;"	v
+fields	DB_query_builder.php	/^		$fields = array_keys($out);$/;"	v
+filename	DB_cache.php	/^		$filename = md5($sql);$/;"	v
+filepath	DB_cache.php	/^		$filepath = $this->db->cachedir.$segment_one.'+'.$segment_two.'\/'.md5($sql);$/;"	v
+first_row	DB_result.php	/^	public function first_row($type = 'object')$/;"	f
+flush_cache	DB_query_builder.php	/^	public function flush_cache()$/;"	f
+free_result	DB_result.php	/^	public function free_result()$/;"	f
+from	DB_query_builder.php	/^	public function from($from)$/;"	f
+function	DB_driver.php	/^			$function = $driver.$function;$/;"	v
+get	DB_query_builder.php	/^	public function get($table = '', $limit = NULL, $offset = NULL)$/;"	f
+get_compiled_delete	DB_query_builder.php	/^	public function get_compiled_delete($table = '', $reset = TRUE)$/;"	f
+get_compiled_insert	DB_query_builder.php	/^	public function get_compiled_insert($table = '', $reset = TRUE)$/;"	f
+get_compiled_select	DB_query_builder.php	/^	public function get_compiled_select($table = '', $reset = TRUE)$/;"	f
+get_compiled_update	DB_query_builder.php	/^	public function get_compiled_update($table = '', $reset = TRUE)$/;"	f
+get_where	DB_query_builder.php	/^	public function get_where($table = '', $where = NULL, $limit = NULL, $offset = NULL)$/;"	f
+group_by	DB_query_builder.php	/^	public function group_by($by, $escape = NULL)$/;"	f
+group_end	DB_query_builder.php	/^	public function group_end()$/;"	f
+group_start	DB_query_builder.php	/^	public function group_start($not = '', $type = 'AND ')$/;"	f
+having	DB_query_builder.php	/^	public function having($key, $value = NULL, $escape = NULL)$/;"	f
+heading	DB_driver.php	/^		$heading = $LANG->line('db_error_heading');$/;"	v
+hostname	DB_driver.php	/^	public $hostname;$/;"	v
+i	DB_driver.php	/^					$i = 0;$/;"	v
+i	DB_driver.php	/^					$i = 1;$/;"	v
+i	DB_driver.php	/^					$i = 2;$/;"	v
+i	DB_query_builder.php	/^				$i = 0;$/;"	v
+ids	DB_query_builder.php	/^		$ids = array();$/;"	v
+if_not_exists	DB_forge.php	/^				$if_not_exists = FALSE;$/;"	v
+index_set	DB_query_builder.php	/^					$index_set = TRUE;$/;"	v
+index_set	DB_query_builder.php	/^			$index_set = FALSE;$/;"	v
+initialize	DB_driver.php	/^	public function initialize()$/;"	f
+insert	DB_query_builder.php	/^	public function insert($table = '', $set = NULL, $escape = NULL)$/;"	f
+insert_batch	DB_query_builder.php	/^	public function insert_batch($table = '', $set = NULL, $escape = NULL)$/;"	f
+insert_string	DB_driver.php	/^	public function insert_string($table, $data)$/;"	f
+is_write_type	DB_driver.php	/^	public function is_write_type($sql)$/;"	f
+item	DB_driver.php	/^					$item = implode('.', $parts);$/;"	v
+item	DB_driver.php	/^				$item = $this->dbprefix.$item;$/;"	v
+item	DB_driver.php	/^				$item = $this->escape_identifiers($item);$/;"	v
+item	DB_driver.php	/^				$item = implode('.', $parts);$/;"	v
+item	DB_driver.php	/^				$item = preg_replace('\/^'.$this->swap_pre.'(\\S+?)\/', $this->dbprefix.'\\\\1', $item);$/;"	v
+item	DB_driver.php	/^			$item = $this->escape_identifiers($item);$/;"	v
+item	DB_driver.php	/^			$item = substr($item, 0, $offset);$/;"	v
+item	DB_driver.php	/^		$item = preg_replace('\/\\s+\/', ' ', $item);$/;"	v
+item	DB_query_builder.php	/^			$item = explode('.', $item);$/;"	v
+join	DB_query_builder.php	/^	public function join($table, $cond, $type = '', $escape = NULL)$/;"	f
+k	DB_query_builder.php	/^				$k = substr($k, 0, $match[0][1]).($match[1][0] === '=' ? ' IS NULL' : ' IS NOT NULL');$/;"	v
+key	DB_driver.php	/^					$key = 'COLUMN_NAME';$/;"	v
+key	DB_driver.php	/^					$key = 'TABLE_NAME';$/;"	v
+key	DB_driver.php	/^					$key = 'column_name';$/;"	v
+key	DB_driver.php	/^					$key = 'table_name';$/;"	v
+key	DB_driver.php	/^					$key = array_keys($row);$/;"	v
+key	DB_driver.php	/^					$key = array_shift($key);$/;"	v
+key	DB_driver.php	/^					$key = key($row);$/;"	v
+key	DB_forge.php	/^			$key = array_search(strtolower($db_name), array_map('strtolower', $this->db->data_cache['db_names']), TRUE);$/;"	v
+key	DB_forge.php	/^			$key = array_search(strtolower($this->db->dbprefix.$table_name), array_map('strtolower', $this->db->data_cache['table_names']), TRUE);$/;"	v
+key	DB_query_builder.php	/^			$key = array($key => $value);$/;"	v
+key	DB_query_builder.php	/^		$key = $this->_object_to_array($key);$/;"	v
+key	DB_query_builder.php	/^		$key = $this->_object_to_array_batch($key);$/;"	v
+key	DB_utility.php	/^			$key = str_replace($this->db->database.'.', '', current($res));$/;"	v
+keys	DB_forge.php	/^	public $keys		= array();$/;"	v
+keys	DB_query_builder.php	/^		$keys = array_keys($this->_object_to_array(current($key)));$/;"	v
+keys	DB_utility.php	/^			$keys = array_keys($res);$/;"	v
+last_query	DB_driver.php	/^	public function last_query()$/;"	f
+last_row	DB_result.php	/^	public function last_row($type = 'object')$/;"	f
+like	DB_query_builder.php	/^	public function like($field, $match = '', $side = 'both', $escape = NULL)$/;"	f
+like_statement	DB_query_builder.php	/^				$like_statement = "{$prefix} {$k} {$not} LIKE '%{$v}%'";$/;"	v
+like_statement	DB_query_builder.php	/^				$like_statement = "{$prefix} {$k} {$not} LIKE '%{$v}'";$/;"	v
+like_statement	DB_query_builder.php	/^				$like_statement = "{$prefix} {$k} {$not} LIKE '{$v}%'";$/;"	v
+like_statement	DB_query_builder.php	/^				$like_statement = "{$prefix} {$k} {$not} LIKE '{$v}'";$/;"	v
+limit	DB_query_builder.php	/^	public function limit($value, $offset = 0)$/;"	f
+list_databases	DB_utility.php	/^	public function list_databases()$/;"	f
+list_fields	DB_driver.php	/^	public function list_fields($table)$/;"	f
+list_fields	DB_result.php	/^	public function list_fields()$/;"	f
+list_tables	DB_driver.php	/^	public function list_tables($constrain_by_prefix = FALSE)$/;"	f
+load_rdriver	DB_driver.php	/^	public function load_rdriver()$/;"	f
+message	DB_driver.php	/^			$message = (array) $error;$/;"	v
+message	DB_driver.php	/^			$message = is_array($error) ? $error : array(str_replace('%s', $swap, $LANG->line($error)));$/;"	v
+ml	DB_driver.php	/^		$ml = strlen($this->bind_marker);$/;"	v
+modify_column	DB_forge.php	/^	public function modify_column($table, $field)$/;"	f
+newcond	DB_query_builder.php	/^			$newcond = '';$/;"	v
+next_row	DB_result.php	/^	public function next_row($type = 'object')$/;"	f
+no_escape	DB_query_builder.php	/^					$no_escape = isset($this->qb_no_escape[$key]) ? $this->qb_no_escape[$key] : NULL;$/;"	v
+not	DB_query_builder.php	/^		$not = ($not) ? ' NOT' : '';$/;"	v
+not_group_start	DB_query_builder.php	/^	public function not_group_start()$/;"	f
+not_like	DB_query_builder.php	/^	public function not_like($field, $match = '', $side = 'both', $escape = NULL)$/;"	f
+num_fields	DB_result.php	/^	public function num_fields()$/;"	f
+num_rows	DB_result.php	/^	public $num_rows;$/;"	v
+num_rows	DB_result.php	/^	public function num_rows()$/;"	f
+offset	DB_query_builder.php	/^	public function offset($offset)$/;"	f
+optimize_database	DB_utility.php	/^	public function optimize_database()$/;"	f
+optimize_table	DB_utility.php	/^	public function optimize_table($table_name)$/;"	f
+or_group_start	DB_query_builder.php	/^	public function or_group_start()$/;"	f
+or_having	DB_query_builder.php	/^	public function or_having($key, $value = NULL, $escape = NULL)$/;"	f
+or_like	DB_query_builder.php	/^	public function or_like($field, $match = '', $side = 'both', $escape = NULL)$/;"	f
+or_not_group_start	DB_query_builder.php	/^	public function or_not_group_start()$/;"	f
+or_not_like	DB_query_builder.php	/^	public function or_not_like($field, $match = '', $side = 'both', $escape = NULL)$/;"	f
+or_where	DB_query_builder.php	/^	public function or_where($key, $value = NULL, $escape = NULL)$/;"	f
+or_where_in	DB_query_builder.php	/^	public function or_where_in($key = NULL, $values = NULL, $escape = NULL)$/;"	f
+or_where_not_in	DB_query_builder.php	/^	public function or_where_not_in($key = NULL, $values = NULL, $escape = NULL)$/;"	f
+order_by	DB_query_builder.php	/^	public function order_by($orderby, $direction = '', $escape = NULL)$/;"	f
+orderby	DB_query_builder.php	/^			$orderby = ctype_digit((string) $orderby)$/;"	v
+out	DB_query_builder.php	/^		$out = get_object_vars($object);$/;"	v
+out	DB_utility.php	/^			$out = substr(rtrim($out), 0, -strlen($delim)).$newline;$/;"	v
+out	DB_utility.php	/^		$out = '';$/;"	v
+out	DB_utility.php	/^		$out = substr(rtrim($out), 0, -strlen($delim)).$newline;$/;"	v
+params	DB.php	/^		$params = $db[$active_group];$/;"	v
+params	DB.php	/^		$params = array($/;"	v
+params	DB_utility.php	/^			$params = array('tables' => $params);$/;"	v
+parts	DB_driver.php	/^			$parts	= explode('.', $item);$/;"	v
+password	DB_driver.php	/^	public $password;$/;"	v
+path	DB_cache.php	/^			$path = $this->db->cachedir;$/;"	v
+path	DB_cache.php	/^		$path = realpath($path)$/;"	v
+pconnect	DB_driver.php	/^	public $pconnect		= FALSE;$/;"	v
+platform	DB_driver.php	/^	public function platform()$/;"	f
+port	DB_driver.php	/^	public $port			= '';$/;"	v
+prefix	DB_query_builder.php	/^			$prefix = (count($this->$qb_key) === 0 && count($this->$qb_cache_key) === 0)$/;"	v
+prefix	DB_query_builder.php	/^			$prefix = (count($this->qb_where) === 0 && count($this->qb_cache_where) === 0)$/;"	v
+prefix	DB_query_builder.php	/^		$prefix = (count($this->qb_where) === 0 && count($this->qb_cache_where) === 0) ? '' : $type;$/;"	v
+prefix	DB_query_builder.php	/^		$prefix = (count($this->qb_where) === 0) ? $this->_group_get_type('') : $this->_group_get_type($type);$/;"	v
+prefs	DB_utility.php	/^		$prefs = array($/;"	v
+preg_ec	DB_driver.php	/^				$preg_ec = array($/;"	v
+preg_ec	DB_driver.php	/^		static $preg_ec = array();$/;"	v
+previous_row	DB_result.php	/^	public function previous_row($type = 'object')$/;"	f
+primary	DB_driver.php	/^	public function primary($table)$/;"	f
+primary_keys	DB_forge.php	/^	public $primary_keys	= array();$/;"	v
+protect_identifiers	DB_driver.php	/^			$protect_identifiers = $this->_protect_identifiers;$/;"	v
+protect_identifiers	DB_driver.php	/^	public function protect_identifiers($item, $prefix_single = FALSE, $protect_identifiers = NULL, $field_exists = TRUE)$/;"	f
+qb_aliased_tables	DB_query_builder.php	/^	protected $qb_aliased_tables		= array();$/;"	v
+qb_cache_exists	DB_query_builder.php	/^	protected $qb_cache_exists			= array();$/;"	v
+qb_cache_from	DB_query_builder.php	/^	protected $qb_cache_from			= array();$/;"	v
+qb_cache_groupby	DB_query_builder.php	/^	protected $qb_cache_groupby			= array();$/;"	v
+qb_cache_having	DB_query_builder.php	/^	protected $qb_cache_having			= array();$/;"	v
+qb_cache_join	DB_query_builder.php	/^	protected $qb_cache_join			= array();$/;"	v
+qb_cache_key	DB_query_builder.php	/^		$qb_cache_key = ($qb_key === 'qb_having') ? 'qb_cache_having' : 'qb_cache_where';$/;"	v
+qb_cache_no_escape	DB_query_builder.php	/^	protected $qb_cache_no_escape			= array();$/;"	v
+qb_cache_orderby	DB_query_builder.php	/^			$this->qb_cache_orderby = array_merge($this->qb_cache_orderby, $qb_orderby);$/;"	v
+qb_cache_orderby	DB_query_builder.php	/^	protected $qb_cache_orderby			= array();$/;"	v
+qb_cache_select	DB_query_builder.php	/^	protected $qb_cache_select			= array();$/;"	v
+qb_cache_set	DB_query_builder.php	/^	protected $qb_cache_set				= array();$/;"	v
+qb_cache_var	DB_query_builder.php	/^			$qb_cache_var	= 'qb_cache_'.$val;$/;"	v
+qb_cache_where	DB_query_builder.php	/^	protected $qb_cache_where			= array();$/;"	v
+qb_caching	DB_query_builder.php	/^		$this->qb_caching = FALSE;$/;"	v
+qb_caching	DB_query_builder.php	/^		$this->qb_caching = TRUE;$/;"	v
+qb_caching	DB_query_builder.php	/^	protected $qb_caching				= FALSE;$/;"	v
+qb_distinct	DB_query_builder.php	/^		$this->qb_distinct = is_bool($val) ? $val : TRUE;$/;"	v
+qb_distinct	DB_query_builder.php	/^	protected $qb_distinct			= FALSE;$/;"	v
+qb_from	DB_query_builder.php	/^	protected $qb_from			= array();$/;"	v
+qb_groupby	DB_query_builder.php	/^	protected $qb_groupby			= array();$/;"	v
+qb_having	DB_query_builder.php	/^	protected $qb_having			= array();$/;"	v
+qb_join	DB_query_builder.php	/^	protected $qb_join			= array();$/;"	v
+qb_keys	DB_query_builder.php	/^	protected $qb_keys			= array();$/;"	v
+qb_limit	DB_query_builder.php	/^	protected $qb_limit			= FALSE;$/;"	v
+qb_new	DB_query_builder.php	/^			$qb_new 	= $this->$qb_cache_var;$/;"	v
+qb_no_escape	DB_query_builder.php	/^				$this->qb_no_escape = $qb_no_escape;$/;"	v
+qb_no_escape	DB_query_builder.php	/^			$qb_no_escape = $this->qb_cache_no_escape;$/;"	v
+qb_no_escape	DB_query_builder.php	/^	protected $qb_no_escape 			= array();$/;"	v
+qb_offset	DB_query_builder.php	/^	protected $qb_offset			= FALSE;$/;"	v
+qb_orderby	DB_query_builder.php	/^			$qb_orderby = array();$/;"	v
+qb_orderby	DB_query_builder.php	/^		$this->qb_orderby = array_merge($this->qb_orderby, $qb_orderby);$/;"	v
+qb_orderby	DB_query_builder.php	/^	protected $qb_orderby			= array();$/;"	v
+qb_select	DB_query_builder.php	/^	protected $qb_select			= array();$/;"	v
+qb_set	DB_query_builder.php	/^	protected $qb_set			= array();$/;"	v
+qb_variable	DB_query_builder.php	/^			$qb_variable	= 'qb_'.$val;$/;"	v
+qb_where	DB_query_builder.php	/^			$this->qb_where = array();$/;"	v
+qb_where	DB_query_builder.php	/^	protected $qb_where			= array();$/;"	v
+qb_where_group_count	DB_query_builder.php	/^	protected $qb_where_group_count		= 0;$/;"	v
+qb_where_group_started	DB_query_builder.php	/^			$this->qb_where_group_started = FALSE;$/;"	v
+qb_where_group_started	DB_query_builder.php	/^		$this->qb_where_group_started = FALSE;$/;"	v
+qb_where_group_started	DB_query_builder.php	/^		$this->qb_where_group_started = TRUE;$/;"	v
+qb_where_group_started	DB_query_builder.php	/^	protected $qb_where_group_started	= FALSE;$/;"	v
+queries	DB_driver.php	/^	public $queries			= array();$/;"	v
+query	DB_driver.php	/^		$query = $query->row();$/;"	v
+query	DB_driver.php	/^		$query = $this->query($sql)->row();$/;"	v
+query	DB_driver.php	/^		$query = $this->query($sql);$/;"	v
+query	DB_driver.php	/^		$query = $this->query($this->_count_string.$this->escape_identifiers('numrows').' FROM '.$this->protect_identifiers($table, TRUE, NULL, FALSE));$/;"	v
+query	DB_driver.php	/^		$query = $this->query($this->_field_data($this->protect_identifiers($table, TRUE, NULL, FALSE)));$/;"	v
+query	DB_driver.php	/^	public function query($sql, $binds = FALSE, $return_object = NULL)$/;"	f
+query	DB_forge.php	/^		$query = $this->_drop_table($this->db->dbprefix.$table_name, $if_exists);$/;"	v
+query	DB_forge.php	/^		$query = $this->db->query($query);$/;"	v
+query	DB_utility.php	/^			$query = $query->result_array();$/;"	v
+query	DB_utility.php	/^		$query = $query->result_array();$/;"	v
+query	DB_utility.php	/^		$query = $this->db->query($this->_list_databases);$/;"	v
+query	DB_utility.php	/^		$query = $this->db->query(sprintf($this->_optimize_table, $this->db->escape_identifiers($table_name)));$/;"	v
+query	DB_utility.php	/^		$query = $this->db->query(sprintf($this->_repair_table, $this->db->escape_identifiers($table_name)));$/;"	v
+query_builder	DB.php	/^		$query_builder = $active_record;$/;"	v
+query_builder	DB.php	/^		$query_builder = $query_builder_override;$/;"	v
+query_count	DB_driver.php	/^	public $query_count		= 0;$/;"	v
+query_times	DB_driver.php	/^	public $query_times		= array();$/;"	v
+read	DB_cache.php	/^	public function read($sql)$/;"	f
+reconnect	DB_driver.php	/^	public function reconnect()$/;"	f
+rename_table	DB_forge.php	/^	public function rename_table($table_name, $new_table_name)$/;"	f
+repair_table	DB_utility.php	/^	public function repair_table($table_name)$/;"	f
+replace	DB_query_builder.php	/^	public function replace($table = '', $set = NULL)$/;"	f
+res	DB_utility.php	/^			$res = $res->result_array();$/;"	v
+res	DB_utility.php	/^			$res = $this->db->query(sprintf($this->_optimize_table, $this->db->escape_identifiers($table_name)));$/;"	v
+res	DB_utility.php	/^			$res = current($res);$/;"	v
+reset_delete_data	DB_query_builder.php	/^	protected $reset_delete_data		= FALSE;$/;"	v
+reset_query	DB_query_builder.php	/^	public function reset_query()$/;"	f
+result	DB_forge.php	/^		$result = $this->db->query(sprintf($this->_rename_table,$/;"	v
+result	DB_query_builder.php	/^		$result = $this->query($this->_compile_select());$/;"	v
+result	DB_query_builder.php	/^		$result = ($this->qb_distinct === TRUE)$/;"	v
+result	DB_result.php	/^		$result = $this->result($type);$/;"	v
+result	DB_result.php	/^		$result = $this->result_array();$/;"	v
+result	DB_result.php	/^		$result = $this->result_object();$/;"	v
+result	DB_result.php	/^	public function result($type = 'object')$/;"	f
+result	DB_utility.php	/^		$result = array();$/;"	v
+result_array	DB_result.php	/^	public $result_array			= array();$/;"	v
+result_array	DB_result.php	/^	public function result_array()$/;"	f
+result_id	DB_driver.php	/^	public $result_id		= FALSE;$/;"	v
+result_id	DB_result.php	/^		$this->result_id = $driver_object->result_id;$/;"	v
+result_id	DB_result.php	/^		$this->result_id = FALSE;$/;"	v
+result_id	DB_result.php	/^	public $result_id;$/;"	v
+result_object	DB_result.php	/^	public $result_object			= array();$/;"	v
+result_object	DB_result.php	/^	public function result_object()$/;"	f
+return_delete_sql	DB_query_builder.php	/^		$this->return_delete_sql = FALSE;$/;"	v
+return_delete_sql	DB_query_builder.php	/^		$this->return_delete_sql = TRUE;$/;"	v
+return_delete_sql	DB_query_builder.php	/^	protected $return_delete_sql		= FALSE;$/;"	v
+return_object	DB_driver.php	/^			$return_object = ! $this->is_write_type($sql);$/;"	v
+row	DB_query_builder.php	/^				$row = $clean;$/;"	v
+row	DB_query_builder.php	/^			$row = $this->_object_to_array($row);$/;"	v
+row	DB_query_builder.php	/^		$row = $result->row();$/;"	v
+row	DB_result.php	/^	public function row($n = 0, $type = 'object')$/;"	f
+row_array	DB_result.php	/^	public function row_array($n = 0)$/;"	f
+row_data	DB_result.php	/^			$this->row_data = $this->row_array(0);$/;"	v
+row_data	DB_result.php	/^	public $row_data;$/;"	v
+row_object	DB_result.php	/^	public function row_object($n = 0)$/;"	f
+s	DB_query_builder.php	/^				$s = $m[0][$i][1] + strlen($m[0][$i][0]), $i++)$/;"	v
+save_queries	DB_driver.php	/^	public $save_queries		= TRUE;$/;"	v
+segment_one	DB_cache.php	/^			$segment_one  = ($this->CI->uri->segment(1) == FALSE) ? 'default' : $this->CI->uri->segment(1);$/;"	v
+segment_one	DB_cache.php	/^		$segment_one = ($this->CI->uri->segment(1) == FALSE) ? 'default' : $this->CI->uri->segment(1);$/;"	v
+segment_two	DB_cache.php	/^			$segment_two = ($this->CI->uri->segment(2) == FALSE) ? 'index' : $this->CI->uri->segment(2);$/;"	v
+segment_two	DB_cache.php	/^		$segment_two = ($this->CI->uri->segment(2) == FALSE) ? 'index' : $this->CI->uri->segment(2);$/;"	v
+select	DB_query_builder.php	/^			$select = explode(',', $select);$/;"	v
+select	DB_query_builder.php	/^		$select = $this->_compile_select();$/;"	v
+select	DB_query_builder.php	/^	public function select($select = '*', $escape = NULL)$/;"	f
+select_avg	DB_query_builder.php	/^	public function select_avg($select = '', $alias = '')$/;"	f
+select_max	DB_query_builder.php	/^	public function select_max($select = '', $alias = '')$/;"	f
+select_min	DB_query_builder.php	/^	public function select_min($select = '', $alias = '')$/;"	f
+select_sum	DB_query_builder.php	/^	public function select_sum($select = '', $alias = '')$/;"	f
+set	DB_query_builder.php	/^	public function set($key, $value = '', $escape = NULL)$/;"	f
+set_dbprefix	DB_query_builder.php	/^	public function set_dbprefix($prefix = '')$/;"	f
+set_insert_batch	DB_query_builder.php	/^	public function set_insert_batch($key, $value = '', $escape = NULL)$/;"	f
+set_row	DB_result.php	/^	public function set_row($key, $value = NULL)$/;"	f
+set_update_batch	DB_query_builder.php	/^	public function set_update_batch($key, $index = '', $escape = NULL)$/;"	f
+simple_query	DB_driver.php	/^	public function simple_query($sql)$/;"	f
+sql	DB_driver.php	/^			$sql = $this->compile_binds($sql, $binds);$/;"	v
+sql	DB_driver.php	/^			$sql = preg_replace('\/(\\W)'.$this->swap_pre.'(\\S+?)\/', '\\\\1'.$this->dbprefix.'\\\\2', $sql);$/;"	v
+sql	DB_driver.php	/^			$sql = substr_replace($sql, $escaped_value, $matches[0][$c][1], $ml);$/;"	v
+sql	DB_driver.php	/^		$sql = $this->_update($this->protect_identifiers($table, TRUE, NULL, FALSE), $fields);$/;"	v
+sql	DB_forge.php	/^				$sql = sprintf($this->_drop_table_if, $this->db->escape_identifiers($table));$/;"	v
+sql	DB_forge.php	/^		$sql = $this->_alter_table('DROP', $this->db->dbprefix.$table, $column_name);$/;"	v
+sql	DB_forge.php	/^		$sql = $this->_create_table($table, $if_not_exists, $attributes);$/;"	v
+sql	DB_forge.php	/^		$sql = '';$/;"	v
+sql	DB_forge.php	/^		$sql = 'ALTER TABLE '.$this->db->escape_identifiers($table).' ';$/;"	v
+sql	DB_forge.php	/^		$sql = 'DROP TABLE';$/;"	v
+sql	DB_forge.php	/^		$sql = ($if_not_exists)$/;"	v
+sql	DB_forge.php	/^		$sql = sprintf($this->_create_table.'%s',$/;"	v
+sql	DB_query_builder.php	/^			$sql = $select_override;$/;"	v
+sql	DB_query_builder.php	/^			$sql = ( ! $this->qb_distinct) ? 'SELECT ' : 'SELECT DISTINCT ';$/;"	v
+sql	DB_query_builder.php	/^		$sql = $this->_delete($table);$/;"	v
+sql	DB_query_builder.php	/^		$sql = $this->_insert($/;"	v
+sql	DB_query_builder.php	/^		$sql = $this->_replace($this->protect_identifiers($table, TRUE, NULL, FALSE), array_keys($this->qb_set), array_values($this->qb_set));$/;"	v
+sql	DB_query_builder.php	/^		$sql = $this->_truncate($table);$/;"	v
+sql	DB_query_builder.php	/^		$sql = $this->_update($this->protect_identifiers($this->qb_from[0], TRUE, NULL, FALSE), $this->qb_set);$/;"	v
+sql	DB_query_builder.php	/^		$sql = $this->delete($table, '', NULL, $reset);$/;"	v
+sql	DB_query_builder.php	/^		$sql = $type.'('.$this->protect_identifiers(trim($select)).') AS '.$this->escape_identifiers(trim($alias));$/;"	v
+sqls	DB_forge.php	/^		$sqls = $this->_alter_table('ADD', $this->db->dbprefix.$table, $this->_process_fields());$/;"	v
+sqls	DB_forge.php	/^		$sqls = $this->_alter_table('CHANGE', $this->db->dbprefix.$table, $this->_process_fields());$/;"	v
+sqls	DB_forge.php	/^		$sqls = array();$/;"	v
+start_cache	DB_query_builder.php	/^	public function start_cache()$/;"	f
+stop_cache	DB_query_builder.php	/^	public function stop_cache()$/;"	f
+str	DB_driver.php	/^			$str = array_map(array(&$this, 'escape'), $str);$/;"	v
+str	DB_driver.php	/^		$str = $this->_escape_str($str);$/;"	v
+str	DB_query_builder.php	/^		$str = trim($str);$/;"	v
+subdriver	DB_driver.php	/^	public $subdriver;$/;"	v
+swap_pre	DB_driver.php	/^	public $swap_pre		= '';$/;"	v
+table	DB_forge.php	/^			$table = $this->db->dbprefix.$table;$/;"	v
+table	DB_query_builder.php	/^			$table = $this->protect_identifiers($table, TRUE, NULL, FALSE);$/;"	v
+table	DB_query_builder.php	/^			$table = $this->qb_from[0];$/;"	v
+table	DB_query_builder.php	/^			$table = preg_replace('\/\\s+AS\\s+\/i', ' ', $table);$/;"	v
+table	DB_query_builder.php	/^			$table = trim(strrchr($table, ' '));$/;"	v
+table_exists	DB_driver.php	/^	public function table_exists($table_name)$/;"	f
+temp	DB_query_builder.php	/^				$temp = substr($cond, $s, ($m[0][$i][1] - $s));$/;"	v
+time_end	DB_driver.php	/^		$time_end = microtime(TRUE);$/;"	v
+time_start	DB_driver.php	/^		$time_start = microtime(TRUE);$/;"	v
+total_queries	DB_driver.php	/^	public function total_queries()$/;"	f
+trace	DB_driver.php	/^		$trace = debug_backtrace();$/;"	v
+trans_complete	DB_driver.php	/^	public function trans_complete()$/;"	f
+trans_enabled	DB_driver.php	/^		$this->trans_enabled = FALSE;$/;"	v
+trans_enabled	DB_driver.php	/^	public $trans_enabled		= TRUE;$/;"	v
+trans_off	DB_driver.php	/^	public function trans_off()$/;"	f
+trans_start	DB_driver.php	/^	public function trans_start($test_mode = FALSE)$/;"	f
+trans_status	DB_driver.php	/^	public function trans_status()$/;"	f
+trans_strict	DB_driver.php	/^		$this->trans_strict = is_bool($mode) ? $mode : TRUE;$/;"	v
+trans_strict	DB_driver.php	/^	public $trans_strict		= TRUE;$/;"	v
+trans_strict	DB_driver.php	/^	public function trans_strict($mode = TRUE)$/;"	f
+truncate	DB_query_builder.php	/^	public function truncate($table = '')$/;"	f
+type	DB_query_builder.php	/^				$type = '';$/;"	v
+type	DB_query_builder.php	/^			$type = '';$/;"	v
+type	DB_query_builder.php	/^			$type = strtoupper(trim($type));$/;"	v
+type	DB_query_builder.php	/^		$type = $this->_group_get_type($type);$/;"	v
+type	DB_query_builder.php	/^		$type = strtoupper($type);$/;"	v
+unbuffered_row	DB_result.php	/^	public function unbuffered_row($type = 'object')$/;"	f
+update	DB_query_builder.php	/^	public function update($table = '', $set = NULL, $where = NULL, $limit = NULL)$/;"	f
+update_batch	DB_query_builder.php	/^	public function update_batch($table = '', $set = NULL, $index = NULL)$/;"	f
+update_string	DB_driver.php	/^	public function update_string($table, $data, $where)$/;"	f
+username	DB_driver.php	/^	public $username;$/;"	v
+v	DB_query_builder.php	/^					$v = ' '.$this->escape($v);$/;"	v
+v	DB_query_builder.php	/^					$v = trim($v);$/;"	v
+v	DB_query_builder.php	/^			$v = $this->escape_like_str($v);$/;"	v
+val	DB.php	/^					$val = var_export($val, TRUE);$/;"	v
+val	DB_query_builder.php	/^				$val = array('field' => $val, 'escape' => $escape);$/;"	v
+val	DB_query_builder.php	/^				$val = trim($val);$/;"	v
+val	DB_query_builder.php	/^			$val = trim($val);$/;"	v
+values	DB_query_builder.php	/^			$values = array($values);$/;"	v
+version	DB_driver.php	/^	public function version()$/;"	f
+where	DB_query_builder.php	/^		$where = array($/;"	v
+where	DB_query_builder.php	/^	public function where($key, $value = NULL, $escape = NULL)$/;"	f
+where_in	DB_query_builder.php	/^		$where_in = array($/;"	v
+where_in	DB_query_builder.php	/^		$where_in = array();$/;"	v
+where_in	DB_query_builder.php	/^	public function where_in($key = NULL, $values = NULL, $escape = NULL)$/;"	f
+where_not_in	DB_query_builder.php	/^	public function where_not_in($key = NULL, $values = NULL, $escape = NULL)$/;"	f
+write	DB_cache.php	/^	public function write($sql, $object)$/;"	f
+xml	DB_utility.php	/^		$xml = '<'.$root.'>'.$newline;$/;"	v
+xml_from_result	DB_utility.php	/^	public function xml_from_result($query, $params = array())$/;"	f

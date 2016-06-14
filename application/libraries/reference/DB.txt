@@ -1,0 +1,20 @@
+살라 daily 초기화
+
+------------------------------------------------------------
+DELIMITER $$
+
+DROP PROCEDURE IF EXISTS INPUTDATA$$
+
+CREATE PROCEDURE INPUTDATA()
+BEGIN
+  DECLARE i INT DEFAULT 1;
+
+  WHILE( i < 6237 ) DO
+    INSERT INTO halalkorea.salah_daily (`in_use`, `date`)
+    VALUE (FALSE, DATE_ADD(CURDATE(), INTERVAL i DAY));
+    SET i = i + 1;
+  END WHILE;
+
+END$$
+DELIMITER;
+------------------------------------------------------------
